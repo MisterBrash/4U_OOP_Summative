@@ -1,18 +1,16 @@
 /**
  * ICS4U - Mr. Brash
  *  
- * Unit 2 Summative Assessment 🧑🏻‍💻
- * Cartesian Plane and Geometry
+ * OOP Summative Assessment 🧑🏻‍💻
+ * Geometry
  * 
  * Author: 
- * 
- * Notes:
  * 
  */
 
 'use strict';
 
-// The lib.round() function is available
+// The lib.round() function is available when you need it
 const lib = require("./library.js");
 
 

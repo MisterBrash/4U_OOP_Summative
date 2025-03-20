@@ -1,12 +1,12 @@
-# Unit 2 Summative: Object Oriented Programming
+# Object Oriented Programming - Summative (README)
 
 ###### ICS4U - Mr. Brash 🐿️
 
 ## Table of Contents
-README<br>
-[Part 1 - The Code](PART1.md)<br>
-[Part 2 - The Class Diagrams](PART2.md)<br>
-[The Rubrics](RUBRIC.md)
+**README** (this file)  
+[Part 1 - The Code](./PART1.md)  
+[Part 2 - The Class Diagrams](./PART2.md)  
+[The Rubric](./RUBRIC.md)  
 
 ---
 
@@ -24,12 +24,13 @@ Since the front-end (graphics) will be added by someone else on the team, it is 
 
 #### This project consists of two parts:
 1. [The Code](PART1.md)
-    1. [The Cartesian Plane](PART1.md#the-cartesian-plane-cartesianplane)
-    2. [Point](PART1.md#point)
-    3. [Line Segment](PART1.md#line-segment)
-    4. [Polygon](PART1.md#polygon)
-    5. [Triangle](PART1.md#triangle)
-    6. [Rectangle](PART1.md#rectangle)
+    1. [Point](PART1.md#point)
+    2. [Line Segment](PART1.md#line-segment)
+    3. [Polygon](PART1.md#polygon)
+    4. [Triangle](PART1.md#triangle)
+    5. [Rectangle](PART1.md#rectangle)  
+
+    _Optional_ Bonus [The Cartesian Plane](PART1.md#the-cartesian-plane-cartesianplane)
 
 2. [The Class Diagrams](PART2.md)
 
