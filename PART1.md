@@ -35,7 +35,7 @@ _Properties_:
 - `#y`: A _protected_ Number representing the y-coordinate.
 
 _Methods_:
-- `constructor(x, y)` which sets the appropriate values.
+- `constructor(name, x, y)` which sets the appropriate values.
 - `transform(delta_x, delta_y)`: This function will modify the `#x` and `#y` based on the `delta_x` and `delta_y`, respectively. For example, `transform(4, -3)` will _add_ 4 to `#x` and _subtract_ 3 from `#y`. 
 - `toString()`: a method which _returns_ a _String_ in the format "\<name\>(x, y)". For example:  "A(-4, 8.63)"  -  Note the space " " after the comma.
 
