@@ -10,7 +10,9 @@
 
 'use strict';
 
-// The lib.round() function is available when you need it
-const lib = require("./library.js");
-
+/* 
+  The library functions are available when needed
+  Example:  lib.round(Math.PI, 4);   or   lib.randInt(1, 10);
+*/
+import * as lib from "./library.js";
 

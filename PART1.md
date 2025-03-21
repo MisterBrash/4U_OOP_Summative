@@ -52,7 +52,7 @@ _Methods_:
 - `length`: a _getter_ which returns the _length_ of the line segment, rounded to two decimals.
 - `midpoint`: a _getter_ which returns a `Point` that is the midpoint of this segment (round coordinates to two decimals, as necessary).
 - `slope`: a _getter_ which returns the _slope_ of the line segment, rounded to two decimals. For vertical lines, return `undefined`.
-- `y-intercept`: a _getter_ which returns the hypothetical y-intercept, if this were a complete line. Round to two demicals.
+- `y_intercept`: a _getter_ which returns the hypothetical y-intercept, if this were a complete line. Round to two demicals.
 - `equation`: a _getter_ which returns a _String_ in the format "y = mx + b" where `m` and `b` are the respective values for this line (not letters). 
     - The equation should take into account +ve and -ve values of `b`. For example "y = 3x - 5" vs. "y = 3x + -5". That part could be tricky.
     - _Vertical_ lines should have the equation "x = #" where # is the x-value of the endpoints.
@@ -80,7 +80,7 @@ _Methods_:
 - `edges`: a _getter_ that returns an array of the edges of the polygon (as instances of `LineSegment`). Make sure you return them _all_.
 - `lengths`: a _getter_ that returns an _array_ of the lengths of each edge.
 - `slopes`: a _getter_ that returns an _array_ of the slopes of each edge, as a number rounded to two decimals.
-- `y-intercepts`: a _getter_ that returns an _array_ of Numbers representing the y-intercepts of each edge. These will be the y-values only, not a `Point`.
+- `y_intercepts`: a _getter_ that returns an _array_ of Numbers representing the y-intercepts of each edge. These will be the y-values only, not a `Point`.
 - `equations`: a _getter_ that returns an _array_ of the equation Strings of each edge.
 - `perimeter`: a _getter_ that provides the perimeter of the closed polygon as a _Number_, no unit.
 - `classify()`: a method that returns a _String_ depending on the number of vertices:
