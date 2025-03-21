@@ -29,7 +29,7 @@ Perhaps the easiest of all the objects, a `Point` is made of a pair of coordinat
 **Note:** No error-checking required, assume input is correct. Negative coordinates are fine - they just won't plot.
 
 _Properties_:
-- `name`: A _public_ String representing the name of the point (typically "A","B",etc...). This may or may not be used in further code but _must_ be part of the constructor, even as a default value.
+- `name`: A _public_ String representing the name of the point (typically "A","B",etc...).
 - `#type:`: A _protected_ String that defaults to "Point", it is [immutable](https://www.google.com/search?q=define+immutable) and is _not_ part of the `constructor`.
 - `#x`: A _protected_ Number representing the x-coordinate.
 - `#y`: A _protected_ Number representing the y-coordinate.
